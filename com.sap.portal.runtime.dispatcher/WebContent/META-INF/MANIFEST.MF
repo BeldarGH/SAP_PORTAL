@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.6.5
+Created-By: 20.51-b01 (Sun Microsystems Inc.)
+Edition: NW731EXT_11_REL
+Implementation-Vendor-Id: sap.com
+Implementation-Version: 7.4006.20140212160224.0000
+Perforce-Server: perforce3225.wdf.sap.corp:3225
+Changelist: 449969
+
+Name: origin
+project: epbc.main
+release: NW731EXT_11_REL
+subproject: _prtc.dispatcher.war
+environment: com.sap.portal.runtime.dispatcher.war
+envtype: war
+gendir: D:/depot/_build/portal/EPBC~1.MAI/NW731E~1/gen/dbg/java/sub/_p
+ rtc.dispatcher.war/e/02
+
