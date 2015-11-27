@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><application name="com.sap.portal.navigation.afp.masthead.vossloh">
+  <application-config>
+    <property name="Vendor" value="sap.com"/>
+    <property name="SecurityArea" value="NetWeaver.Portal"/>
+    <property name="PrivateSharingReference" value="SAPJ2EE::library:com.sap.portal.common,                                                         SAPJ2EE::library:tc~cmi,        com.sap.portal.common.commonservices,         SAPJ2EE::library:com.sapportals.htmlb,        com.sap.portal.navigation.api_service,        com.sap.portal.navigation.helperservice,         com.sap.portal.navigation.service,         com.sap.portal.productivity.resolverservice,         com.sap.portal.navigation.afp.helperservice,         com.sap.portal.runtime.system.favorites,         SAPJ2EE::service:engine.security.facade,         SAPJ2EE::library:com.sap.base.technology.facade,         SAPJ2EE::library:engine.j2ee14.facade,        com.sap.portal.search.provider_api,        com.sap.portal.search.service,        com.sap.portal.contenttaggingservice,                                                         SAPJ2EE::library:tc~epbc~pcd~gl~api"/>
+    <property name="releasable" value="true"/>
+  <property name="fail-over-enable" value="disable"/>
+    <property name="ClassLoadingPolicy" value="transitive"/>
+    </application-config>
+  <components>
+    <component name="AFPMasthead">
+      <component-config>
+        <property name="ClassName" value="com.sap.portal.navigation.afp.Masthead"/>
+        <property name="ResourceBundleName" value="AFPMasthead_nls"/>
+        <property name="SafetyLevel" value="no_safety"/>
+      </component-config>
+      <component-profile>
+		<property name="ShowAnonymousLanguage" value="false">
+			<property name="validvalues" value="4/true5/false"/>
+			<property name="plainDescription" value="Show Dropdown List in Masthead: Language Personalization for Anonymous Users"/>
+			<property name="longDescription" value="Show or hide the 'Language' dropdown list in the masthead. This enables anonymous users to personalize the language of the portal at runtime"/>
+			<property name="category" value="Framework"/>
+		</property>
+      	<property name="com.sap.portal.pcm.Title" value="Ajax FWK Masthead iView"/>
+		<property name="com.sap.portal.prt.xhtml.compliant" value="true"/>
+      	<property name="com.sap.portal.iview.HeightType" value="FIXED"/>
+        <property name="com.sap.portal.iview.HeightScale" value="PIXELS"/>
+        <property name="com.sap.portal.iview.Height" value="35"/>
+        <property name="com.sap.portal.iview.WidthType" value="FIXED"/>
+        <property name="com.sap.portal.iview.WidthScale" value="PERCENT"/>
+        <property name="com.sap.portal.iview.Width" value="100"/>
+        <property name="com.sap.portal.iview.TrayType" value="BORDERLESS"/>
+        <property name="com.sap.portal.iview.ShowTray" value="false"/>
+        <property name="com.sap.portal.iview.ShowTitle" value="false"/>
+        <property name="com.sap.portal.iview.ShowRefresh" value="false"/>
+        <property name="com.sap.portal.iview.ShowMaximize" value="false"/>
+        <property name="com.sap.portal.iview.ShowCollapseExpand" value="false"/>
+        <property name="com.sap.portal.iview.ShowPersonalize" value="false"/>
+        <property name="com.sap.portal.iview.ShowRemove" value="false"/>
+        <property name="com.sap.portal.reserved.iview.IsolationMode" value="EMBEDDED"/>
+        <property name="com.sap.portal.iview.Availability" value="MANDATORY"/>
+        <property name="CachingLevel" value="None"/>
+        <property name="ValidityPeriod" value="3600000"/>
+        <property name="com.sap.portal.navigation.afp.frameworkMode" value="Std">
+          <property name="validvalues" value="3/Std3/ByD"/>
+          <property name="plainDescription" value="Framework Mode"/>
+          <property name="longDescription" value="Display the masthead iView with specific customization of the portal framework"/>
+          <property name="category" value="Framework"/>
+          <property name="administration" value="NON-DIALOG"/>
+         </property>
+      	<property name="com.sap.portal.navigation.afp.showLoggedAsMessage" value="true">
+          <property name="validvalues" value="4/true5/false"/>
+          <property name="plainDescription" value="Show User Name in Masthead"/>
+          <property name="longDescription" value="Show or hide the name of the logged in user in the Masthead"/>
+          <property name="category" value="Menu"/>
+           <property name="configattribute" value="baseLevel"/>
+         </property>
+		 <property name="com.sap.portal.navigation.afp.showMenuBarContainer" value="true">
+			<property name="validvalues" value="4/true5/false"/>
+			<property name="plainDescription" value="Show Menu Bar in Masthead"/>
+			<property name="longDescription" value="Show or hide the menu bar in the masthead iView"/>
+			<property name="category" value="Menu"/>
+			<property name="configattribute" value="fullLevel"/>
+		</property>
+         <property name="com.sap.portal.navigation.afp.showNewWindowLink" value="true">
+          <property name="validvalues" value="4/true5/false"/>
+          <property name="plainDescription" value="Show Link in Masthead: New Session"/>
+          <property name="longDescription" value="Show or hide the 'New Session' link displayed in the masthead iView"/>
+          <property name="category" value="Masthead"/>
+           <property name="configattribute" value="baseLevel"/>
+         </property>
+         <property name="showSAPStoreLink" value="true">
+          <property name="validvalues" value="4/true5/false"/>
+          <property name="plainDescription" value="Show Link in Masthead: Enterprise Store"/>
+          <property name="longDescription" value="Show or hide the 'SAP Store' link displayed in the masthead iView at runtime."/>
+          <property name="category" value="Masthead"/>
+          <property name="configattribute" value="baseLevel"/>
+          <property name="order" value="50"/>
+        </property>
+        <property name="SAPStoreURL" value="http://www.sapstore.com">
+          <property name="plainDescription" value="Enterprise Store URL"/>
+          <property name="category" value="Masthead"/>
+          <property name="configattribute" value="baseLevel"/>
+          <property name="order" value="60"/>
+        </property>
+        <property name="SAPStoreURLTitle" value="SAP Store">
+          <property name="plainDescription" value="Enterprise Store Title"/>
+          <property name="category" value="Masthead"/>
+          <property name="configattribute" value="baseLevel"/>
+          <property name="order" value="70"/>
+        </property>
+         <property name="com.sap.portal.navigation.afp.showLogInLogOffLink" value="true">
+	          <property name="validvalues" value="4/true5/false"/>
+	          <property name="plainDescription" value="Show Link in Masthead: Log In / Log Off"/>
+	          <property name="longDescription" value="Show or hide the 'Log In / Log Off' link displayed in the masthead iView"/>
+	          <property name="category" value="Masthead"/>
+			  <property name="configattribute" value="fullLevel"/>
+          	
+        </property>
+         <property name="com.sap.portal.navigation.afp.showLogo" value="true">
+          <property name="validvalues" value="4/true5/false"/>
+          <property name="plainDescription" value="Show Logo Image in Masthead"/>
+          <property name="longDescription" value="Show or hide the logo image displayed in the masthead iView"/>
+          <property name="category" value="Masthead"/>
+		  <property name="configattribute" value="fullLevel"/>
+          
+        </property>
+		
+        <property name="com.sap.portal.navigation.afp.logoImgUrl" value="">
+          <property name="plainDescription" value="URL for Logo"/>
+          <property name="longDescription" value="Specify the URL of the image used for the logo."/>
+          <property name="category" value="Masthead"/>
+        </property>
+		
+		<property name="com.sap.portal.navigation.afp.showHelpLink" value="false">
+	          <property name="validvalues" value="4/true5/false"/>
+	          <property name="plainDescription" value="Show Link in Masthead: Help"/>
+	          <property name="longDescription" value="Show or hide the 'Help' link displayed in the masthead iView"/>
+	          <property name="category" value="Framework"/>
+	          <property name="administration" value="NON-DIALOG"/>
+        </property>
+		 
+         <property name="com.sap.portal.navigation.afp.showCollaborateLink" value="true">
+          <property name="validvalues" value="4/true5/false"/>
+          <property name="plainDescription" value="Show Link in Masthead: Collaborate"/>
+          <property name="longDescription" value="Show or hide the 'Collaborate' link displayed in the masthead iView"/>
+          <property name="category" value="Masthead"/>
+           <property name="configattribute" value="baseLevel"/>
+        
+         </property>
+         <property name="com.sap.portal.navigation.afp.clpComponent" value="com.sap.netweaver.coll.shared.ui.CollaborationLaunchPad">
+			<property name="plainDescription" value="Collaboration Launch Pad Component"/>
+			<property name="category" value="Framework"/>
+         </property>
+
+		<property name="com.sap.portal.navigation.afp.enableQuickLaunch" value="true">
+			<property name="validvalues" value="4/true5/false"/>
+		    <property name="plainDescription" value="Enable Quick Launch"/>
+		    <property name="longDescription" value="Enable or disable the Quick Launch UI"/>
+		    <property name="category" value="Masthead"/>
+		    <property name="configattribute" value="fullLevel"/>
+		    
+         </property>
+		<property name="com.sap.portal.navigation.afp.notifyOnFinishedLoading" value="true"/>
+		<property name="AuthScheme" value="anonymous"/>
+      </component-profile>
+    </component>
+  </components>
+  <services/>
+</application>

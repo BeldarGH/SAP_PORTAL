@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?japro processed="true"?>
+
+<ROOT CONV_VERSION="1.1">
+<GENERAL>
+<UID>AFPMasthead_nls.classes.private.P(-5b979045:1216332a841:-8000)</UID>
+<PACKAGE>EP_PIN_EU</PACKAGE>
+<DOMAIN>EP</DOMAIN>
+<ORIGLANG>EN</ORIGLANG>
+<RESPONSIBLE>removed_by_japro@sap.com</RESPONSIBLE>
+<DESCRIPTION>strings for Header iView of the Portal First Page with some Portal Basic functionality</DESCRIPTION>
+</GENERAL>
+<RESOURCES>
+<TEXT AKEY="ACC_BUTTON_NO" LENGTH="255" TYPE="XTOL">No - Button - To activate press Enter</TEXT>
+<TEXT AKEY="ACC_BUTTON_YES" LENGTH="255" TYPE="XTOL"> Yes - Button - To activate press Enter</TEXT>
+<TEXT AKEY="ACC_COLLABORATE" LENGTH="255" TYPE="XTOL">Collaborate - Link - Start the collaboration launch pad - To activate, press ENTER</TEXT>
+<TEXT AKEY="ACC_COLLABORATION" LENGTH="255" TYPE="XLST">Collaboration - Link - Start the collaboration launch pad - To activate, press ENTER</TEXT>
+<TEXT AKEY="ACC_HELP" LENGTH="0" TYPE="YMSG">Help - Display online help to learn more about the portal - To open the menu press ENTER. To move between items use the up and down arrow  keys. To select press spacebar.</TEXT>
+<TEXT AKEY="ACC_LOGOFF_LINK" LENGTH="255" TYPE="XTOL">Log Off - End the current portal session and log off - To activate press Enter</TEXT>
+<TEXT AKEY="ACC_NEW_WINDOW_TEXT" LENGTH="255" TYPE="XTOL">New Session - Open the portal in a new browser window with the current logged on user - To activate, press ENTER</TEXT>
+<TEXT AKEY="COLLABORATE" LENGTH="255" TYPE="XLNK">Collaborate</TEXT>
+<TEXT AKEY="COLLABORATION" LENGTH="255" TYPE="XLNK">Collaboration</TEXT>
+<TEXT AKEY="FULL_SCREEN_DESCRIPTION" LENGTH="255" TYPE="XMSG">Click to open full screen mode</TEXT>
+<TEXT AKEY="LOG_OFF_CONFIRM_MSG" LENGTH="255" TYPE="XMSG">Are you sure you want to log off?</TEXT>
+<TEXT AKEY="LOG_OFF_CONFIRM_MSG_ALL_WIN" LENGTH="255" TYPE="XMSG">All open application windows will be closed and any unsaved data will be lost. Are you sure you want to log off?</TEXT>
+<TEXT AKEY="LOG_OFF_NO_TEXT" LENGTH="255" TYPE="XBUT">No</TEXT>
+<TEXT AKEY="LOG_OFF_TEXT" LENGTH="255" TYPE="XLNK">Log off</TEXT>
+<TEXT AKEY="LOG_OFF_TITLE" LENGTH="255" TYPE="XTIT">Log Off</TEXT>
+<TEXT AKEY="LOG_OFF_YES_TEXT" LENGTH="255" TYPE="XBUT">Yes</TEXT>
+<TEXT AKEY="LOG_ON_TEXT" LENGTH="255" TYPE="XLNK">Log On</TEXT>
+<TEXT AKEY="LOG_ON_TOOLTIP" LENGTH="255" TYPE="XMSG">Start the current portal session and log on</TEXT>
+<TEXT AKEY="MASTHEAD_TOOLTIP" LENGTH="255" TYPE="XTOL">Masthead - To skip press F6 - To enter press Tab</TEXT>
+<TEXT AKEY="MI_HELP" LENGTH="255" TYPE="XMEN">Help</TEXT>
+<TEXT AKEY="NEW_WINDOW_TEXT" LENGTH="255" TYPE="XMIT">New Session</TEXT>
+<TEXT AKEY="NORMAL_MODE_DESCRIPTION" LENGTH="255" TYPE="XMSG">Click to close full screen mode</TEXT>
+<TEXT AKEY="PORTAL_PLACE_BACK_ACC_TOOLTIP" LENGTH="255" TYPE="XTOL">Back to main Portal - Link - Return to the previous location in the main portal - To activate press ENTER</TEXT>
+<TEXT AKEY="PORTAL_PLACE_BACK_TEXT" LENGTH="255" TYPE="XLNK">Back to main Portal</TEXT>
+<TEXT AKEY="QL_INPUT_BOX_TOOLTIP" LENGTH="255" TYPE="XTOL">Search the portal</TEXT>
+<TEXT AKEY="QL_LOADING_MSG" LENGTH="255" TYPE="XMSG">Loading...</TEXT>
+<TEXT AKEY="QL_OPTIONS_DISABLE_TOOLTIP" LENGTH="255" TYPE="XTOL">Search options (inactive)</TEXT>
+<TEXT AKEY="QL_OPTIONS_TOOLTIP" LENGTH="255" TYPE="XTOL">Search options</TEXT>
+<TEXT AKEY="QL_SEARCH_BUTTON_DISABLE_TOOLTIP" LENGTH="255" TYPE="XTOL">Search (inactive)</TEXT>
+<TEXT AKEY="QL_SEARCH_BUTTON_TOOLTIP" LENGTH="255" TYPE="XTOL">Search</TEXT>
+<TEXT AKEY="QL_SEARCH_TITLE" LENGTH="255" TYPE="XFLD">Search:</TEXT>
+<TEXT AKEY="TABSET_FILTER_APPLIED" LENGTH="255" TYPE="XTIT">(Filter Applied)</TEXT>
+<TEXT AKEY="TABSET_FILTER_APPLIED_TOOLTIP" LENGTH="255" TYPE="XTOL">You have applied a filter to top-level navigation entries. To view all items, or to select a different set of navigation entries, from the 'View' menu, choose 'Tabsets'.</TEXT>
+<TEXT AKEY="WELCOME_MESSAGE" LENGTH="255" TYPE="XMSG">Welcome: {2} {0} {1}</TEXT>
+</RESOURCES>
+</ROOT>
