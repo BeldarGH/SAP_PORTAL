@@ -1,7 +1,7 @@
 <%@ page session="false" %>
 <jsp:useBean id="mastHeadBean" class="com.sap.portal.navigation.afp.MastHeadBean"  scope="request"></jsp:useBean> 
 <!--   include con los estilos CSS personalizados -->
-<%@ include file="Masthead_style_Vossloh.jsp" %> 
+<%@ include file="Masthead_afp_Vossloh_style.jsp" %> 
 
 <!-- BEGIN Masthead -->
 <div>	
