@@ -4,7 +4,7 @@
 /* Estilos personalizados para el masthead ajax vossloh */
 
 /* ESTILOS BASADOS EN  AFP_NN7.CSS */
-/*
+
 .logobar_container {
 	background-color:#ffffff;
 	background-image:url(images/masthead/BgTop10X.gif?7.31.11.0.1);
@@ -45,7 +45,7 @@
 	sap-padding:0px 0px 25px 0px;
 	background-repeat:repeat-x
 }
-*/
+/*
 .logoImg {
 	height:29px;
 	margin-left:8px;
@@ -56,7 +56,7 @@
 	background-repeat:no-repeat;
 	top:0px
 }
-/*
+
 .menubar-container {
 	background-image:url(images/masthead/BgGenericBarX.gif?7.31.11.0.1);
 	background-repeat:repeat-x;

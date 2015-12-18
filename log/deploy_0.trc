@@ -400,3 +400,28 @@ Type | Status  : Id
 Nov 27, 2015 2:05:45 PM  [Path  ]: [#27]: The Log was reinitialized with [com.sap.tc.logging.Category@60492a] [com.sap.tc.logging.Location@1638fac].
 Nov 27, 2015 2:05:45 PM  [Info  ]: [#27]: Will try to connect []:[-1]
 Nov 27, 2015 2:05:45 PM  [Info  ]: [#27]: Connected to []:[-1]
+Dec 11, 2015 10:41:25 AM [Path  ]: [#0]: The Log was reinitialized with [com.sap.tc.logging.Category@1d56833] [com.sap.tc.logging.Location@1abf87e].
+Dec 11, 2015 10:41:25 AM [Info  ]: [#0]: Will try to connect []:[-1]
+Dec 11, 2015 10:41:28 AM [Info  ]: [#0]: Connected to []:[-1]
+Dec 11, 2015 10:41:51 AM [Info  ]: [#0]: Deployment of [name: 'com.sap.portal.navigation.afp.masthead.vossloh', vendor: 'JavaEE' (sda)] finished.
+Dec 11, 2015 10:41:52 AM [Info  ]: [#0]: +++ Deployment of session ID [1240] finished with status [Success] +++. [[ deployerId=1 ]] [[#4: 22.101 sec]] [
+===== Summary - Deploy Result - Start =====
+------------------------
+Type | Status  : Count
+------------------------
+ > SCA(s)
+ > SDA(s)
+   - [Success] : [1]
+------------------------
+------------------------
+Type | Status  : Id
+------------------------
+ > SCA(s)
+ > SDA(s)
+   - [Success] : name: 'com.sap.portal.navigation.afp.masthead.vossloh', vendor: 'JavaEE', 
+------------------------
+===== Summary - Deploy Result - End =====
+]
+Dec 11, 2015 10:42:32 AM [Path  ]: [#1]: The Log was reinitialized with [com.sap.tc.logging.Category@1d56833] [com.sap.tc.logging.Location@1abf87e].
+Dec 11, 2015 10:42:32 AM [Info  ]: [#1]: Will try to connect []:[-1]
+Dec 11, 2015 10:42:32 AM [Info  ]: [#1]: Connected to []:[-1]
