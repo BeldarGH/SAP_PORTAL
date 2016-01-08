@@ -20,6 +20,7 @@
 	position: relative;
 	list-style: none;
 	display: inline-table;
+	z-index: 5;
 }
 /* previene la aparición de los subnavs */
 	#navigation ul:after {

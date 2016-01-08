@@ -9,11 +9,11 @@
 <%-- Estos estilos solo son compatibles para la version de IE  
 <%@ include file="header_style.jsp" %> --%>
 
-<%-- Engendro que trata de compatibilizar IE con el resto del universo 
-<%@ include file="Hover_Menu_Style.jsp" %> --%>
+<%-- Engendro que trata de compatibilizar IE con el resto del universo  --%>
+<%@ include file="Hover_Menu_Style.jsp" %>
 
-<%-- Estilos CSS Vossloh AG --%>
-<%@ include file="Vossloh_AG_CSS.jsp" %>
+<%-- Estilos CSS Vossloh AG 
+<%@ include file="Vossloh_AG_CSS.jsp" %>--%>
 
 <script type="text/javascript">
 var clicked = false;
