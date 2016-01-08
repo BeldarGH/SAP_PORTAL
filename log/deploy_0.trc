@@ -50,3 +50,53 @@ Type | Status  : Id
 Oct 30, 2015 1:06:05 PM  [Path  ]: [#3]: The Log was reinitialized with [com.sap.tc.logging.Category@e88fdf] [com.sap.tc.logging.Location@3dac34].
 Oct 30, 2015 1:06:05 PM  [Info  ]: [#3]: Will try to connect []:[-1]
 Oct 30, 2015 1:06:06 PM  [Info  ]: [#3]: Connected to []:[-1]
+Jan 8, 2016 12:00:51 PM  [Path  ]: [#0]: The Log was reinitialized with [com.sap.tc.logging.Category@cded50] [com.sap.tc.logging.Location@1972cef].
+Jan 8, 2016 12:00:51 PM  [Info  ]: [#0]: Will try to connect []:[-1]
+Jan 8, 2016 12:00:58 PM  [Info  ]: [#0]: Connected to []:[-1]
+Jan 8, 2016 12:00:59 PM  [Path  ]: [#1]: The Log was reinitialized with [com.sap.tc.logging.Category@cded50] [com.sap.tc.logging.Location@1972cef].
+Jan 8, 2016 12:00:59 PM  [Info  ]: [#1]: Will try to connect []:[-1]
+Jan 8, 2016 12:01:00 PM  [Info  ]: [#1]: Connected to []:[-1]
+Jan 8, 2016 12:01:17 PM  [Info  ]: [#1]: Deployment of [name: 'tc~sec~ume~logon~ui_stadlerEAR', vendor: 'stadler.com' (sda)] finished.
+Jan 8, 2016 12:01:38 PM  [Info  ]: [#1]: +++ Deployment of session ID [1255] finished with status [Success] +++. [[ deployerId=1 ]] [[#5: 36.119 sec]] [
+===== Summary - Deploy Result - Start =====
+------------------------
+Type | Status  : Count
+------------------------
+ > SCA(s)
+ > SDA(s)
+   - [Success] : [1]
+------------------------
+------------------------
+Type | Status  : Id
+------------------------
+ > SCA(s)
+ > SDA(s)
+   - [Success] : name: 'tc~sec~ume~logon~ui_stadlerEAR', vendor: 'stadler.com', 
+------------------------
+===== Summary - Deploy Result - End =====
+]
+Jan 8, 2016 12:12:57 PM  [Path  ]: [#0]: The Log was reinitialized with [com.sap.tc.logging.Category@174f3b] [com.sap.tc.logging.Location@52d28a].
+Jan 8, 2016 12:12:57 PM  [Info  ]: [#0]: Will try to connect []:[-1]
+Jan 8, 2016 12:12:59 PM  [Info  ]: [#0]: Connected to []:[-1]
+Jan 8, 2016 12:13:00 PM  [Path  ]: [#1]: The Log was reinitialized with [com.sap.tc.logging.Category@174f3b] [com.sap.tc.logging.Location@52d28a].
+Jan 8, 2016 12:13:00 PM  [Info  ]: [#1]: Will try to connect []:[-1]
+Jan 8, 2016 12:13:00 PM  [Info  ]: [#1]: Connected to []:[-1]
+Jan 8, 2016 12:13:19 PM  [Info  ]: [#1]: Deployment of [name: 'tc~sec~ume~logon~ui_stadlerEAR', vendor: 'stadler.com' (sda)] finished.
+Jan 8, 2016 12:13:30 PM  [Info  ]: [#1]: +++ Deployment of session ID [1256] finished with status [Success] +++. [[ deployerId=1 ]] [[#5: 27.751 sec]] [
+===== Summary - Deploy Result - Start =====
+------------------------
+Type | Status  : Count
+------------------------
+ > SCA(s)
+ > SDA(s)
+   - [Success] : [1]
+------------------------
+------------------------
+Type | Status  : Id
+------------------------
+ > SCA(s)
+ > SDA(s)
+   - [Success] : name: 'tc~sec~ume~logon~ui_stadlerEAR', vendor: 'stadler.com', 
+------------------------
+===== Summary - Deploy Result - End =====
+]
