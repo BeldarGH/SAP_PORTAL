@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<application 
+	xmlns="http://java.sun.com/xml/ns/j2ee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	id="Application_ID" 
+	version="1.4" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/application_1_4.xsd">
+	<display-name>tc~sec~ume~logon~ui_stadlerEAR</display-name>
+	<module 
+		id="WebModule_1452246835157">
+		<web>
+			<web-uri>tc~sec~ume~logon~ui_stadler.war</web-uri>
+			<context-root>stadler_logon</context-root>
+		</web>
+	</module>
+</application>
