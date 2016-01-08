@@ -1,10 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<application id="Application_ID" version="1.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/application_1_4.xsd">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<application 
+	xmlns="http://java.sun.com/xml/ns/j2ee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	id="Application_ID" 
+	version="1.4" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/application_1_4.xsd">
 	<display-name>tc~sec~ume~logon~ui_sothisEAR</display-name>
-	<module id="WebModule_1452253537867">
+	<module 
+		id="WebModule_1452253537867">
 		<web>
 			<web-uri>tc~sec~ume~logon~ui_sothis.war</web-uri>
-			<context-root>tc~sec~ume~logon~ui_sothis</context-root>
+			<context-root>sothis_logon_new</context-root>
 		</web>
 	</module>
 </application>
