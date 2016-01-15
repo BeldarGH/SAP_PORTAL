@@ -210,15 +210,14 @@ function TLNHover(navigationDiv) { //se le asigna un nombre a la función!
   ***************************************************************** */
 
  var nav = navigator.appName; //Obtengo el nombre del navegador
- //
+
 // document.write(nav + "<br>"); //DEBUG
  if (nav == "Microsoft Internet Explorer") //Sólo continúo si el navegador es IE
  {
- 	//alert(nav); //muestra en una ventana emergente
  	TLNHover("navigation"); //aplica el javascript SOLO para IE
-// 	return; //Si el navegador no es IE, termino.
  }
 
+/*****************************************************************************/
 
  //La función añade a los tag li los atributos idValue e id2Value,además de las funciones onMouseOver y onMouseOut
  var nodeNameFromNaviagation;

@@ -278,3 +278,53 @@ Type | Status  : Id
 Jan 15, 2016 11:08:10 AM [Path  ]: [#1]: The Log was reinitialized with [com.sap.tc.logging.Category@1acc940] [com.sap.tc.logging.Location@d08fc3].
 Jan 15, 2016 11:08:10 AM [Info  ]: [#1]: Will try to connect []:[-1]
 Jan 15, 2016 11:08:10 AM [Info  ]: [#1]: Connected to []:[-1]
+Jan 15, 2016 2:48:25 PM  [Path  ]: [#0]: The Log was reinitialized with [com.sap.tc.logging.Category@1058bfc] [com.sap.tc.logging.Location@1298c7d].
+Jan 15, 2016 2:48:25 PM  [Info  ]: [#0]: Will try to connect []:[-1]
+Jan 15, 2016 2:48:29 PM  [Info  ]: [#0]: Connected to []:[-1]
+Jan 15, 2016 2:48:39 PM  [Info  ]: [#0]: Deployment of [name: 'com.sap.portal.navigation.afp.tln.new', vendor: 'JavaEE' (sda)] finished.
+Jan 15, 2016 2:48:39 PM  [Info  ]: [#0]: +++ Deployment of session ID [1264] finished with status [Success] +++. [[ deployerId=1 ]] [[#4: 8.44 sec]] [
+===== Summary - Deploy Result - Start =====
+------------------------
+Type | Status  : Count
+------------------------
+ > SCA(s)
+ > SDA(s)
+   - [Success] : [1]
+------------------------
+------------------------
+Type | Status  : Id
+------------------------
+ > SCA(s)
+ > SDA(s)
+   - [Success] : name: 'com.sap.portal.navigation.afp.tln.new', vendor: 'JavaEE', 
+------------------------
+===== Summary - Deploy Result - End =====
+]
+Jan 15, 2016 2:48:42 PM  [Path  ]: [#1]: The Log was reinitialized with [com.sap.tc.logging.Category@1058bfc] [com.sap.tc.logging.Location@1298c7d].
+Jan 15, 2016 2:48:42 PM  [Info  ]: [#1]: Will try to connect []:[-1]
+Jan 15, 2016 2:48:42 PM  [Info  ]: [#1]: Connected to []:[-1]
+Jan 15, 2016 2:50:45 PM  [Path  ]: [#2]: The Log was reinitialized with [com.sap.tc.logging.Category@1058bfc] [com.sap.tc.logging.Location@1298c7d].
+Jan 15, 2016 2:50:45 PM  [Info  ]: [#2]: Will try to connect []:[-1]
+Jan 15, 2016 2:50:45 PM  [Info  ]: [#2]: Connected to []:[-1]
+Jan 15, 2016 2:50:51 PM  [Info  ]: [#2]: Deployment of [name: 'com.sap.portal.navigation.afp.tln.new', vendor: 'JavaEE' (sda)] finished.
+Jan 15, 2016 2:50:51 PM  [Info  ]: [#2]: +++ Deployment of session ID [1265] finished with status [Success] +++. [[ deployerId=2 ]] [[#11: 4.918 sec]] [
+===== Summary - Deploy Result - Start =====
+------------------------
+Type | Status  : Count
+------------------------
+ > SCA(s)
+ > SDA(s)
+   - [Success] : [1]
+------------------------
+------------------------
+Type | Status  : Id
+------------------------
+ > SCA(s)
+ > SDA(s)
+   - [Success] : name: 'com.sap.portal.navigation.afp.tln.new', vendor: 'JavaEE', 
+------------------------
+===== Summary - Deploy Result - End =====
+]
+Jan 15, 2016 2:50:54 PM  [Path  ]: [#3]: The Log was reinitialized with [com.sap.tc.logging.Category@1058bfc] [com.sap.tc.logging.Location@1298c7d].
+Jan 15, 2016 2:50:54 PM  [Info  ]: [#3]: Will try to connect []:[-1]
+Jan 15, 2016 2:50:54 PM  [Info  ]: [#3]: Connected to []:[-1]
