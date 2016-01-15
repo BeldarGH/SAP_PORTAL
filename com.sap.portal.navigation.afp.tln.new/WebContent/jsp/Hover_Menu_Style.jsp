@@ -108,6 +108,7 @@
 	/*padding-bottom: 4px;*/
 	/*height: 22px;  */
 	background-color:rgb(75, 84, 95);
+	z-index: 5;
 }
 /*
 #navie ul.Sub {
