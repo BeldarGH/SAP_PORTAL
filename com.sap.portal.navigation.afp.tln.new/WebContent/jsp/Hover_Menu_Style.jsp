@@ -33,15 +33,18 @@
 /*cambia el estilo de los elementos li cuando se posiciona sobre ellos el ratón */
 	#navigation ul li:hover {
 		background: #4b545f;
-		background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
-		background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
-		background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
+		/*background: linear-gradient(top, #4f5964 0%, #5f6975 40%);*/
+		background: linear-gradient(top, #4f5964 0%, #007BC0 40%);
+		/*background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);*/
+		background: -moz-linear-gradient(top, #4f5964 0%, #007BC0 40%);
+		/*background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);*/
+		background: -webkit-linear-gradient(top, #4f5964 0%,#007BC0 40%);
 		
-		/*redondeo menu principal*/
+		/*redondeo menu principal
 		border-radius: 72px 72px 72px 72px;
 		-moz-border-radius: 72px 72px 72px 72px;
 		-webkit-border-radius: 72px 72px 72px 72px;
-		border: 0px solid #000000;
+		border: 0px solid #000000;*/
 		
 	}/* cambia el color de los enlaces al posicionar el ratón */
 		#navigation ul li:hover a {
@@ -56,7 +59,11 @@
 	}
 /*cambia el estilo de los subnavigations */
 #navigation ul ul{
-	background: #5f6975; border-radius: 0px; padding: 0;
+	/*background: #5f6975;*/
+	/* COLOR STADLER */
+	background:#007BC0;
+	border-radius: 0px;
+	padding: 0;
 	/* posicion del submenu!! -> Con relative el menú desplaza los elementos!!*/
 	position: absolute; 
 	/* añadiremos este desplazamiento si optamos por un menú vertical */
