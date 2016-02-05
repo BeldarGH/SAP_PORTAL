@@ -17,8 +17,8 @@
 <%@ page import="com.sapportals.portal.pcd.gl.WriteProtectInfo"%>
 <%@ taglib uri = "prt:taglib:tlhtmlb" prefix="hbj" %>
 
-<!--   include con los estilos CSS personalizados -->
-<%@ include file="Masthead_style_Vossloh.jsp" %> 
+<!--   include con los estilos CSS personalizados
+<%@ include file="Masthead_style_Vossloh.jsp" %>  -->
 
 <%!final String PERSONALIZE_PAGE_EVENT_URN = "urn:com.sapportals:navigation";
 	final String PERSONALIZE_PAGE_EVENT_NAME = "PersonalizePage";

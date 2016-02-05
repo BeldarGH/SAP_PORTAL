@@ -32,7 +32,10 @@
 }
 /*cambia el estilo de los elementos li cuando se posiciona sobre ellos el ratón */
 	#navigation ul li:hover {
-		background: #4b545f;
+		 /*color de fondo de los nodos (funciona como borde separador) 
+		background: #4b545f; */
+		background: #e5ecff;
+		
 		/*background: linear-gradient(top, #4f5964 0%, #5f6975 40%);*/
 		background: linear-gradient(top, #4f5964 0%, #007BC0 40%);
 		/*background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);*/
@@ -48,13 +51,13 @@
 		
 	}/* cambia el color de los enlaces al posicionar el ratón */
 		#navigation ul li:hover a {
-			color: #fff;
+			color: #ffffff;
 		}
 	/*cambia el estilo de los enlaces de los subnavs*/
 	#navigation ul li a {
 		display: block; 
 		padding: 5px 10px;
-		color: #757575; 
+		color: #757575;  /*enlaces nodo principal de color gris oscuro */
 		text-decoration: none;
 	}
 /*cambia el estilo de los subnavigations */
@@ -72,7 +75,8 @@
 } /*cambia el estilo de los subnavigations de segundo nivel */
 	#navigation ul ul li {
 		float: none; 
-		border-top: 1px solid #6b727c;
+		/*border-top: 1px solid #6b727c;*/
+		border-top: 1px solid #8BAFEF; /*se cambia el color del fondo a un azul claro */
 		border-bottom: 1px solid #575f6a;
 		position: relative;
 
@@ -83,6 +87,7 @@
 		}	 /* cambia el estilo de los enlaces de los subnavigations de segundo nivel al posicionar el ratón sobre ellos */
 			#navigation ul ul li a:hover {
 				background: #4b545f;
+				color: #007BC0; /*los enlaces del menu secundario sobre el que se posicione el ratón cambian a color azul stadler */
 			}
 /* posiciona los subnavigations en relación a la posición del nodo padre */
 #navigation ul ul ul{

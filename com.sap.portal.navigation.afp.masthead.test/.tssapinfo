@@ -2,7 +2,7 @@
 <TSSAP-INFO>
 
 <Properties>
-<Property key="j2ee.archive.name" value="com.sap.portal.navigation.afp.masthead.stadler.war"/>
+<Property key="j2ee.archive.name" value="com.sap.portal.navigation.afp.masthead.test.war"/>
 <Property key="j2ee.archive.location" value="/"/>
 </Properties>
 </TSSAP-INFO>

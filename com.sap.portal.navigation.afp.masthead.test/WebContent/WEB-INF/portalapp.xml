@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><application name="com.sap.portal.navigation.afp.masthead.stadler">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<application name="com.sap.portal.navigation.afp.masthead.test">
   <application-config>
     <property name="Vendor" value="sap.com"/>
     <property name="SecurityArea" value="NetWeaver.Portal"/>
@@ -55,21 +56,21 @@
           <property name="category" value="Menu"/>
            <property name="configattribute" value="baseLevel"/>
          </property>
-		 <property name="com.sap.portal.navigation.afp.showMenuBarContainer" value="true">
+		 <property name="com.sap.portal.navigation.afp.showMenuBarContainer" value="false">
 			<property name="validvalues" value="4/true5/false"/>
 			<property name="plainDescription" value="Show Menu Bar in Masthead"/>
 			<property name="longDescription" value="Show or hide the menu bar in the masthead iView"/>
 			<property name="category" value="Menu"/>
 			<property name="configattribute" value="fullLevel"/>
 		</property>
-         <property name="com.sap.portal.navigation.afp.showNewWindowLink" value="true">
+         <property name="com.sap.portal.navigation.afp.showNewWindowLink" value="false">
           <property name="validvalues" value="4/true5/false"/>
           <property name="plainDescription" value="Show Link in Masthead: New Session"/>
           <property name="longDescription" value="Show or hide the 'New Session' link displayed in the masthead iView"/>
           <property name="category" value="Masthead"/>
            <property name="configattribute" value="baseLevel"/>
          </property>
-         <property name="showSAPStoreLink" value="true">
+         <property name="showSAPStoreLink" value="false">
           <property name="validvalues" value="4/true5/false"/>
           <property name="plainDescription" value="Show Link in Masthead: Enterprise Store"/>
           <property name="longDescription" value="Show or hide the 'SAP Store' link displayed in the masthead iView at runtime."/>
@@ -77,13 +78,13 @@
           <property name="configattribute" value="baseLevel"/>
           <property name="order" value="50"/>
         </property>
-        <property name="SAPStoreURL" value="http://www.sapstore.com">
+        <property name="SAPStoreURL" value="http://www.stadlerrail.com">
           <property name="plainDescription" value="Enterprise Store URL"/>
           <property name="category" value="Masthead"/>
           <property name="configattribute" value="baseLevel"/>
           <property name="order" value="60"/>
         </property>
-        <property name="SAPStoreURLTitle" value="SAP Store">
+        <property name="SAPStoreURLTitle" value="Stadler Home">
           <property name="plainDescription" value="Enterprise Store Title"/>
           <property name="category" value="Masthead"/>
           <property name="configattribute" value="baseLevel"/>
@@ -120,7 +121,7 @@
 	          <property name="administration" value="NON-DIALOG"/>
         </property>
 		 
-         <property name="com.sap.portal.navigation.afp.showCollaborateLink" value="true">
+         <property name="com.sap.portal.navigation.afp.showCollaborateLink" value="false">
           <property name="validvalues" value="4/true5/false"/>
           <property name="plainDescription" value="Show Link in Masthead: Collaborate"/>
           <property name="longDescription" value="Show or hide the 'Collaborate' link displayed in the masthead iView"/>

@@ -1,9 +1,5 @@
 <%@ page session="false" %>
 <jsp:useBean id="mastHeadBean" class="com.sap.portal.navigation.afp.MastHeadBean"  scope="request"></jsp:useBean> 
-
-<!--   include con los estilos CSS personalizados -->
-<%@ include file="Stadler_Masthead_CSS.jsp" %> 
-
 <!-- BEGIN Masthead -->
 <div>	
 		<table id="mastheadEntry" style="width:100%" cellpadding="0" cellspacing="0">
